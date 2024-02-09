@@ -1,5 +1,22 @@
 {
-  "dependencies": {
-    "puppeteer": "^22.0.0"
+  "name": "puppeteer-job-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanjix/puppeteer-job-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanjix/puppeteer-job-search/issues"
+  },
+  "homepage": "https://github.com/Juanjix/puppeteer-job-search#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17"
   }
 }
