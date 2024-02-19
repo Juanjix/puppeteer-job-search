@@ -8,7 +8,6 @@ test("Empieza con Juan Jose Peralta", async ({ page }) => {
 });
 
 // Test para saber si tiene un boton "Let's talk"
-
 test("Let's talk button", async ({ page }) => {
   await page.goto("https://juanso.dev");
 
@@ -16,7 +15,6 @@ test("Let's talk button", async ({ page }) => {
   await page.getByRole("link", { name: "Let's Talk" }).click();
 
   // Expect page with the heading Juan Jose Peralta
-
   await expect(
     page.getByRole("heading", { name: "Juan Jose Peralta" })
   ).toBeVisible();
